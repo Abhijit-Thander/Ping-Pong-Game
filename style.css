@@ -17,7 +17,7 @@ h1 {
 }
 #ping-pong-table {
   border: 1px solid black;
-  width: 800px;
+  min-width: 800px;
   height: 400px;
   position: relative;
 }
@@ -25,9 +25,10 @@ h1 {
 #paddle {
   background-color: blue;
   width: 10px;
-  height: 65px;
+  height: 75px;
   margin-left: 6px;
   position: absolute;
+  border-radius: 10px;
 }
 
 #ball {
